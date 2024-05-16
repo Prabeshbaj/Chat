@@ -1,8 +1,10 @@
 import React from 'react'
+import ChatComponent from './chatStore/chatComponent'
 
 const App = () => {
   return (
-    <div>Welcome man</div>
+    <div><ChatComponent/> </div>
+  
   )
 }
 
