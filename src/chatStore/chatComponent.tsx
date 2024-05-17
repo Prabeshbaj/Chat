@@ -13,7 +13,7 @@ const ChatComponent: React.FC = () => {
 
   const handleSend = async () => {
     const question = input;
-    const answer = "This is a chat response";
+    const answer = "This is a chat response"
     dispatch(addMessage({ question, answer }));
     setInput('');
   };
